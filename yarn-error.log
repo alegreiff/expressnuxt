@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add --dev node-sass sass-loader
+
+PATH: 
+  /Users/jaimedegreiff/bin:/usr/local/bin:/Users/jaimedegreiff/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.7.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "NUXT+EXPRESS",
+    "version": "1.0.0",
+    "description": "Nuxt + express JS",
+    "author": "Jaime de Greiff",
+    "private": true,
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+      "build": "nuxt build",
+      "start": "cross-env NODE_ENV=production node server/index.js",
+      "generate": "nuxt generate"
+    },
+    "dependencies": {
+      "nuxt": "^1.0.0",
+      "express": "^4.15.3"
+    },
+    "devDependencies": {
+      "cross-env": "^5.0.1",
+      "nodemon": "^1.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: package.json: Name contains illegal characters
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at module.exports.exports.default (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:37549:13)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:52434:51
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
