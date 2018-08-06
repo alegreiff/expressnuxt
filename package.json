@@ -1,5 +1,5 @@
 {
-  "name": "NUXT+EXPRESS",
+  "name": "NUXTEXPRESS",
   "version": "1.0.0",
   "description": "Nuxt + express JS",
   "author": "Jaime de Greiff",
@@ -11,11 +11,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^1.0.0",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "nuxt": "^1.0.0"
   },
   "devDependencies": {
     "cross-env": "^5.0.1",
-    "nodemon": "^1.11.0"
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^7.1.0"
   }
 }
